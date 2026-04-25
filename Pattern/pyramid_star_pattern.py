@@ -1,0 +1,15 @@
+# Pyramid Star Pattern
+
+row = int(input("Enter the no of rows : "))
+
+for i in range(1, row+1):
+
+    for j in range(row - i):
+
+        print(" ", end="")
+
+    for k in range(1, 2 * i):
+
+        print("*", end="")
+
+    print()
